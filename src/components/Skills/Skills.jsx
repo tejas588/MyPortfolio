@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./Skills.module.css";
 import skills from "../../data/skills.json";
 /*import history from "../../data/history.json";*/
-import { getImageUrl } from "../../utils";
+import { getImageUrl } from "../../../utils";
 
 export const Skills = () => {
     return (

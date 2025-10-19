@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { getImageUrl } from "../../utils";
 import "./Resume.css";
+import heroImage from "../../../assets/hero/herox.jpg"; 
 
 function Resume() {
   const navigate = useNavigate();
@@ -22,7 +23,7 @@ function Resume() {
       <div className="resume-image-wrapper">
   <div className="image-and-sidebar">
   <img
-    src={getImageUrl("hero/herox.jpg")}
+    src={heroImage}
     alt="Hero image of me"
     className="resume-heroImg"
   />

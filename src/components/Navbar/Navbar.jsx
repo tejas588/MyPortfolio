@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 import { Link } from "react-router-dom";
-import menuIcon from "../../assets/nav/menuIcon.png";
-import closeIcon from "../../assets/nav/closeIcon.png";
+import menuIcon from "../../../assets/nav/menuIcon.png";
+import closeIcon from "../../../assets/nav/closeIcon.png";
 
 
 export const Navbar = () => {

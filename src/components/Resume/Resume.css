@@ -1,0 +1,174 @@
+/* Container layout: image left, content right */
+.resume-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  color: white;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Floating image on left */
+.resume-image-wrapper {
+  flex: 1;
+  max-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  animation: floatImage 6s ease-in-out infinite;
+  margin-left: -100px;
+  margin-right: 50px;
+}
+
+.resume-heroImg {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #60a5fa;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Resume content container */
+.resume-content {
+  flex: 2;
+  min-width: 300px;
+  max-width: 800px;
+}
+
+/* Each section as a card */
+.resume-content section {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: transform 0.3s ease;
+}
+
+.resume-content section:hover {
+  transform: translateY(-4px);
+}
+
+.resume-content h3 {
+  font-size: 24px;
+  color: #60a5fa;
+  border-bottom: 2px solid #334155;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.resume-content ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.resume-content li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Header section */
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px 10px 50px;
+  background-color: #0f172a;
+  position: relative;
+}
+
+.resume-heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-left: 200px;
+  margin: 0;
+}
+
+.cert-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 1095px;
+}
+
+.cert-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Spacer if needed for layout balance */
+.spacer {
+  width: 150px;
+}
+
+/* Floating animation */
+@keyframes floatImage {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+.image-and-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.sidebar-box {
+  width: 100%;
+  max-width: 400px; /* Increased width */
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  text-align: left;
+}
+
+.sidebar-box h3 {
+  font-size: 20px;
+  color: #60a5fa;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 6px;
+  text-align: center;
+}
+
+.sidebar-box ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+/*segrfv*/
+.resume-title-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

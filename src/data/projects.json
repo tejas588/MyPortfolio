@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Online Voting System",
+      "imageSrc": "projects/ovs.png",
+      "description": "The Online Voting System is a secure, web-based platform designed to simplify and digitize the voting process. It enables users to cast their votes electronically, ensuring accessibility, transparency, and efficiency. ",
+      "skills": ["React", "Nodejs","Express", "Mysql"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Expense Tracker ",
+      "imageSrc": "projects/extr.jpg",
+      "description": "Expense Tracker is a fully responsive single-page application to track income and expenses in real time.Designed clean, intuitive user interface using modern CSS layout techniques.",
+      "skills": ["Html", "CSS","JavaScript","React"],
+      "demo": "https://tejas588.github.io/Expense-Tracker/",
+      "source": "https://github.com/tejas588/Expense-Tracker"
+    },
+    {
+      "title": "Rock Paper Scissors",
+      "imageSrc": "projects/RPS.png",
+      "description": "Rock Paper Scissors is an interactive web-based game  allowing users to play against a computer opponent with real-time score tracking ",
+      "skills": ["Html", "CSS","JavaScript"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]

@@ -1,0 +1,79 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #0f172a; /* dark background for contrast */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menuBtn {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  display: none;
+}
+
+.menuItems {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+}
+
+.menuItems li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;         
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.menuItems li a:hover {
+  color: #6c63ff; /* or any hover color you like */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .menuBtn {
+    display: block;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    background-color: #0f172a;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 16px;
+    z-index: 1001;
+  }
+
+  .menuOpen {
+    display: flex !important;
+  }
+
+  .menuItems li a {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+}

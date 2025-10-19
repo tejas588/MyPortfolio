@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
-import heroImage from "../../assets/hero/herox.jpg"; 
+import heroImage from "../../../assets/hero/herox.jpg"; 
 
 export const Hero = () => {
   useEffect(() => {

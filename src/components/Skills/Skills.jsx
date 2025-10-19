@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./Skills.module.css";
 import skills from "../../data/skills.json";
 /*import history from "../../data/history.json";*/
-import { getImageUrl } from "../../../utils";
+import { getImageUrl } from "../../utils";
 
 export const Skills = () => {
     return (
@@ -15,7 +15,7 @@ export const Skills = () => {
               return (
                 <div key={id} className={styles.skill}>
                   <div className={styles.skillImageContainer}>
-                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                    <img src={`/skills/${skill.imageSrc}`} alt={skill.title} />
                   </div>
                   <p>{skill.title}</p>
                 </div>

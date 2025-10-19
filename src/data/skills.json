@@ -1,39 +1,11 @@
 [
-    {
-      "title": "C",
-      "imageSrc": "skills/c.png"
-    },
-    {
-      "title": "Java",
-      "imageSrc": "skills/java.png"
-    },
-    {
-      "title": "Python",
-      "imageSrc": "skills/python.png"
-    },
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "title": "JavaScript",
-      "imageSrc": "skills/javascript.png"
-    },
-    {
-      "title": "React",
-      "imageSrc": "skills/react.png"
-    },
-    {
-      "title": "Nodejs",
-      "imageSrc": "skills/nodejs.png"
-    },
-    {
-      "title": "MySQL",
-      "imageSrc": "skills/mysql.png"
-    }
-    
-  ]
+  { "title": "C", "imageSrc": "c.png" },
+  { "title": "Java", "imageSrc": "java.png" },
+  { "title": "Python", "imageSrc": "python.png" },
+  { "title": "HTML", "imageSrc": "html.png" },
+  { "title": "CSS", "imageSrc": "css.png" },
+  { "title": "JavaScript", "imageSrc": "javascript.png" },
+  { "title": "React", "imageSrc": "react.png" },
+  { "title": "Nodejs", "imageSrc": "nodejs.png" },
+  { "title": "MySQL", "imageSrc": "mysql.png" }
+]

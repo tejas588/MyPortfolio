@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
+import heroImage from "../../assets/hero/herox.jpg"; 
 
 export const Hero = () => {
   useEffect(() => {
@@ -44,7 +45,7 @@ export const Hero = () => {
         
       </div>
       <img
-        src={"assets/hero/herox.jpg"}
+        src={heroImage}
         alt="Hero image of me"
         className={styles.heroImg}
       />

@@ -34,7 +34,7 @@ function Resume() {
       <li><strong>Programming:</strong> Java, C, Python, HTML & CSS, JavaScript, SQL, React, Node.js</li>
       <li><strong>Operating Systems:</strong> Windows 11</li>
       <li><strong>Developer Tools:</strong> VS Code, Eclipse, Code Blocks, Oracle, MySQL</li>
-      <li><strong>Field of Interest:</strong> DSA, Full Stack Dev, Web Dev</li>
+      <li><strong>Field of Interest:</strong> DSA, Full Stack Dev, Web Dev, AIML</li>
     </ul>
   </div>
 
@@ -74,11 +74,11 @@ function Resume() {
               </ul>
             </li>
             <li>
-              <strong>Expense Tracker</strong> | HTML, CSS, JavaScript, React
+              <strong>Hostel Electricity Bill Management</strong> | React, JavaScript, HTML, CSS 
               <ul>
-                <li>Expense Tracker is a fully responsive single-page application to track income and expenses in real time.</li>
-                <li>The app provides a clear visual overview of financial activity, including current balance, transaction history, and categorized spending.</li>
-                <li>Designed clean, intuitive user interface using modern CSS layout techniques.</li>
+                <li>Developed a high-performance React + Vite frontend for utility management, optimizing the rendering of large datasets via interactive data grids with real-time search, multi-faceted filtering, and pagination for low-latency navigation. </li>
+                <li>Designed a modular component system to visualize consumption trends and billing history, streamlining warden administrative workflows through reusable UI patterns and responsive design. </li>
+                <li>Implemented protected routes and role-based access control to strictly segregate student views from admin modules.</li>
               </ul>
             </li>
             <li>

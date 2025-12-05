@@ -24,6 +24,10 @@ const certificates = [
     file: "/certs/Hackathon certificate.jpg",
   },
   {
+    title: "Ada Insis Internship",
+    file: "/certs/Ada Insis internship.pdf",
+  },
+  {
     title: "Infosys SpringBoot-Introduction to Data Science",
     file: "/certs/1-57c63a8a-294a-4b48-8728-f530ef1c71ec.pdf",
   },

@@ -8,6 +8,10 @@ const certificates = [
     file: "/certs/Coursera SUR29X4DFRS5.pdf",
   },
   {
+    title: "Neural Networks and Deep Learning (Coursera)",
+    file: "/certs/Coursera KHJ45VTG4FUH.pdf",
+  },
+  {
     title: "Generative AI: Introduction and Applications (Coursera)",
     file: "/certs/Coursera Q767Q8UT4KU9.pdf",
   },
@@ -31,23 +35,23 @@ const certificates = [
     title: "Infosys SpringBoot-Introduction to Data Science",
     file: "/certs/1-57c63a8a-294a-4b48-8728-f530ef1c71ec.pdf",
   },
-{
+  {
     title: "Infosys SpringBoot-Introduction to Natural Language Processing",
     file: "/certs/1-d2957ea2-8b67-4680-91e2-5b542450aec6.pdf",
   },
-{
+  {
     title: "Infosys SpringBoot-Introduction to Artificial Intelligence",
     file: "/certs/1-f15bfe15-4545-4184-9d48-67603ac6d563.pdf",
   },
-{
+  {
     title: "Infosys SpringBoot- Introduction to Deep Learning",
     file: "/certs/1-f3bde26e-35d7-40be-8978-4384e33c9ea4.pdf",
   },
-{
+  {
     title: "Infosys SpringBoot-Time Management",
     file: "/certs/1-e01f5d51-e4ba-43b8-8ab4-e4729d5c85e6.pdf",
   },
-{
+  {
     title: "Infosys SpringBoot- Email Writing Skills",
     file: "/certs/1-43a6c1e3-a38d-4883-873f-b9547026a957.pdf",
   },

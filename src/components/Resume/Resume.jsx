@@ -54,7 +54,7 @@ function Resume() {
         <section>
           <h3>Education</h3>
           <ul>
-            <li><strong>B.Tech in Information Technology</strong> – Manipal Institute of Technology, Bangalore (2023–2027), CGPA: 8.08</li>
+            <li><strong>B.Tech in Information Technology</strong> – Manipal Institute of Technology, Bangalore (2023–2027), CGPA: 8.22</li>
             <li><strong>Intermediate</strong> – Sri Chaitanya Kalashala (2021–2023),<p> Percentage: 93%</p></li>
             <li><strong>High School</strong> – Bharatiya Vidya Bhavan's (2019–2021), <p>Percentage: 87.6%</p></li>
           </ul>
@@ -66,7 +66,7 @@ function Resume() {
           <h3>Projects</h3>
           <ul>
             <li>
-              <strong>Online Voting System</strong> | React, Nodejs, Express, Mysql
+              <strong><a href="https://github.com/tejas588/online-voting-system">Online Voting System</a></strong> | React, Nodejs, Express, Mysql
               <ul>
                 <li>Online Voting System is a secure, web-based application that enables users to cast votes electronically in a transparent and efficient manner.</li>
                 <li>The system includes role-based access for admins and voters, secure authentication, and real-time vote counting.</li>
@@ -74,7 +74,7 @@ function Resume() {
               </ul>
             </li>
             <li>
-              <strong>Hostel Electricity Bill Management</strong> | React, JavaScript, HTML, CSS 
+              <strong ><a href="https://github.com/tejas588/KLU-electcity-bill-management">Hostel Electricity Bill Management</a></strong> | React, JavaScript, HTML, CSS 
               <ul>
                 <li>Developed a high-performance React + Vite frontend for utility management, optimizing the rendering of large datasets via interactive data grids with real-time search, multi-faceted filtering, and pagination for low-latency navigation. </li>
                 <li>Designed a modular component system to visualize consumption trends and billing history, streamlining warden administrative workflows through reusable UI patterns and responsive design. </li>
@@ -82,7 +82,7 @@ function Resume() {
               </ul>
             </li>
             <li>
-              <strong>Rock Paper Scissors</strong> | HTML, CSS, JavaScript
+              <strong >Rock Paper Scissors</strong> | HTML, CSS, JavaScript
               <ul>
                 <li>Rock Paper Scissors is an interactive web-based game built using HTML, CSS, and JavaScript, allowing users to play against a computer opponent with real-time score tracking.</li>
                 <li>The game features responsive UI, smooth animations, logic-driven gameplay and real-time feedback.</li>

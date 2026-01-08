@@ -32,7 +32,7 @@ export const Hero = () => {
 
         <div className={styles.buttonGroup}>
           <a
-            href="/SAI TEJAS REPALA.pdf"
+            href="/SAI_TEJAS_REPALA .pdf"
             className={styles.contactBtn}
             target="_blank"
             rel="noopener noreferrer"

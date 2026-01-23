@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
@@ -10,7 +11,14 @@ import instagramIcon from "../../../assets/contact/Instagram.png";
 
 export const Contact = () => {
   return (
-    <footer id="contact" className={styles.container}>
+    <motion.footer
+      id="contact"
+      className={styles.container}
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+    >
       <div className={styles.text}>
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
@@ -32,10 +40,10 @@ export const Contact = () => {
           <a href="https://github.com/tejas588">Github</a>
         </li>
         <li className={styles.link}>
-          <img src={instagramIcon} className="insta" alt="Github icon" />
+          <img src={instagramIcon} alt="Instagram icon" />
           <a href="https://www.instagram.com/tejas_588/">Instagram</a>
         </li>
       </ul>
-    </footer>
+    </motion.footer>
   );
 };

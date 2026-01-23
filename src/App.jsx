@@ -8,11 +8,15 @@ import { Projects } from "./components/Projects/Projects";
 import { Contact } from "./components/Contact/Contact";
 import Resume from "./components/Resume/Resume"; // PDF preview component
 import Certifications from "./components/Resume/Certifications";
+import CursorFollower from "./components/CursorFollower/CursorFollower";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className={styles.App}>
+        <CursorFollower />
         <Navbar />
 
         <Routes>

@@ -1,5 +1,6 @@
 // src/components/Certifications.jsx
 import React from "react";
+import { motion } from "framer-motion";
 import "./Certifications.css";
 
 const certificates = [
@@ -60,16 +61,28 @@ const certificates = [
     title: "Infosys SpringBoot- High Impact Presentations",
     file: "/certs/1-a402eab5-874a-4c7a-9159-865332ea3cb7.pdf",
   },
-    
+
   // Add more certificates as needed
 ];
 
 function Certifications() {
   return (
     <div className="cert-container">
-      <h2 className="cert-title">My Certifications</h2>
+      <motion.h2
+        className="cert-title"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        My Certifications
+      </motion.h2>
 
-      <div className="cert-table-wrapper">
+      <motion.div
+        className="cert-table-wrapper"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+      >
         <table className="cert-table">
           <thead>
             <tr>
@@ -79,7 +92,13 @@ function Certifications() {
           </thead>
           <tbody>
             {certificates.map((cert, index) => (
-              <tr key={index}>
+              <motion.tr
+                key={index}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.3, delay: 0.1 * index }}
+                whileHover={{ backgroundColor: "rgba(87, 108, 188, 0.2)" }}
+              >
                 <td>{cert.title}</td>
                 <td>
                   <a
@@ -91,11 +110,11 @@ function Certifications() {
                     View Certificate
                   </a>
                 </td>
-              </tr>
+              </motion.tr>
             ))}
           </tbody>
         </table>
-      </div>
+      </motion.div>
     </div>
   );
 }

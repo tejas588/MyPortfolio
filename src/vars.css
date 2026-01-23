@@ -1,11 +1,20 @@
 :root {
-    /* Colours */
-    --color-text: #fff;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #04152d;
+  /* Colors */
+  --color-text: #ffffff;
+  --color-text-secondary: #b3b3b3;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+  --color-bg-gradient: linear-gradient(180deg, #04152d 0%, #0b2447 100%);
   
-    /* Fonts */
-    --font-roboto: "Roboto";
-  }
+  /* Glassmorphism / UI */
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --glow-shadow: 0 0 20px rgba(87, 108, 188, 0.5);
+
+  /* Fonts */
+  --font-roboto: "Roboto", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+}

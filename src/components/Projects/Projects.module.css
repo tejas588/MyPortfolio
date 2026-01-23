@@ -12,6 +12,26 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  background: linear-gradient(135deg, var(--color-text) 0%, var(--color-primary) 50%, #64b5f6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary), #64b5f6);
+  border-radius: 2px;
+  box-shadow: 0 0 15px rgba(87, 108, 188, 0.6);
 }
 
 .projects {

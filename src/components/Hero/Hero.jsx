@@ -1,38 +1,53 @@
-import React, { useEffect } from "react";
-import { getImageUrl } from "../../utils";
+import React, { useEffect, useRef } from "react";
+import Typed from "typed.js";
+import { motion } from "framer-motion";
 import styles from "./Hero.module.css";
-import heroImage from "../../../assets/hero/herox.jpg"; 
+import heroImage from "../../../assets/hero/herox.jpg";
 
 export const Hero = () => {
+  const el = useRef(null);
+
   useEffect(() => {
-    const typed = new window.Typed("#typed-name", {
-      strings: ["Sai Tejas", "a Developer", "a Student"],
+    const typed = new Typed(el.current, {
+      strings: ["Sai Tejas", "Full Stack Developer", "ML Enthusiast"],
       typeSpeed: 60,
       backSpeed: 40,
       backDelay: 1000,
       loop: true,
     });
 
-    return () => typed.destroy(); // Cleanup
+    return () => typed.destroy();
   }, []);
 
   return (
-    
     <section className={styles.container}>
-      
       <div className={styles.content}>
-        <h1 className={styles.title}>
-          Hi, I am <span id="typed-name" className={styles.typed}></span>
-        </h1>
+        <motion.h1
+          className={styles.title}
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          Hi, I am <span ref={el} className={styles.typed}></span>
+        </motion.h1>
 
-        <p className={styles.description}>
-          I am currently Pursuing my B. Tech in Manipal Institute of Technology Bangalore (3rd year).
-        </p>
-        
+        <motion.p
+          className={styles.description}
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          Third-year Information Technology undergraduate with a strong foundation in Full Stack Development and Machine Learning.
+        </motion.p>
 
-        <div className={styles.buttonGroup}>
+        <motion.div
+          className={styles.buttonGroup}
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
           <a
-            href="/SAI_TEJAS_REPALA .pdf"
+            href="/Sai_Tejas_Repala.pdf"
             className={styles.contactBtn}
             target="_blank"
             rel="noopener noreferrer"
@@ -40,14 +55,17 @@ export const Hero = () => {
           >
             Resume Download
           </a>
-          
-        </div>
-        
+        </motion.div>
       </div>
-      <img
+
+      <motion.img
         src={heroImage}
         alt="Hero image of me"
         className={styles.heroImg}
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        whileHover={{ scale: 1.05, rotate: 2 }}
       />
 
       <div className={styles.topBlur} />

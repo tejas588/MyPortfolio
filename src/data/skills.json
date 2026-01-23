@@ -1,11 +1,66 @@
 [
-  { "title": "C", "imageSrc": "c.png" },
-  { "title": "Java", "imageSrc": "java.png" },
-  { "title": "Python", "imageSrc": "python.png" },
-  { "title": "HTML", "imageSrc": "html.png" },
-  { "title": "CSS", "imageSrc": "css.png" },
-  { "title": "JavaScript", "imageSrc": "javascript.png" },
-  { "title": "React", "imageSrc": "react.png" },
-  { "title": "Nodejs", "imageSrc": "nodejs.png" },
-  { "title": "MySQL", "imageSrc": "mysql.png" }
+  {
+    "title": "Java",
+    "imageSrc": "java.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "c.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "python.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "javascript.png"
+  },
+  {
+    "title": "HTML/CSS",
+    "imageSrc": "html.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "mysql.png"
+  },
+  {
+    "title": "React.js",
+    "imageSrc": "react.png"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "nodejs.png"
+  },
+  {
+    "title": "Streamlit",
+    "imageSrc": "streamlit.png"
+  },
+  {
+    "title": "Scikit-Learn",
+    "imageSrc": "scikit.png"
+  },
+  {
+    "title": "Pandas",
+    "imageSrc": "pandas.png"
+  },
+  {
+    "title": "NumPy",
+    "imageSrc": "numpy.png"
+  },
+  {
+    "title": "Matplotlib",
+    "imageSrc": "matplotlib.png"
+  },
+  {
+    "title": "Git/GitHub",
+    "imageSrc": "git.png"
+  },
+  {
+    "title": "VS Code",
+    "imageSrc": "vscode.png"
+  },
+  {
+    "title": "Jupyter Notebook",
+    "imageSrc": "jupyter.png"
+  }
 ]

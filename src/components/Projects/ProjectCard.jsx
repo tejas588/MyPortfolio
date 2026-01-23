@@ -1,11 +1,22 @@
 import React from "react";
+import { motion } from "framer-motion";
 import styles from "./ProjectCard.module.css";
+
+const cardVariants = {
+  hidden: { opacity: 0, scale: 0.9 },
+  visible: { opacity: 1, scale: 1 },
+};
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
   return (
-    <div className={styles.container}>
+    <motion.div
+      className={styles.container}
+      variants={cardVariants}
+      whileHover={{ scale: 1.02 }}
+      transition={{ duration: 0.3 }}
+    >
       {/* Directly reference public folder */}
       <img src={`/projects/${imageSrc}`} alt={`Image of ${title}`} className={styles.image} />
 
@@ -26,6 +37,6 @@ export const ProjectCard = ({
           Source
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };

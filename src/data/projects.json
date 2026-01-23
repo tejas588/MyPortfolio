@@ -1,42 +1,90 @@
 [
-    {
-      "title": "Online Voting System",
-      "imageSrc": "ovs.png",
-      "description": "The Online Voting System is a secure, web-based platform designed to simplify and digitize the voting process. It enables users to cast their votes electronically, ensuring accessibility, transparency, and efficiency. ",
-      "skills": ["React", "Nodejs","Express", "Mysql"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Hostel Electricity Bill Management",
-      "imageSrc": "elec.png",
-      "description": "A digital platform for managing hostel electricity readings, billing, and student-wise consumption tracking",
-      "skills": ["React", "JavaScript","Html", "CSS"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Expense Tracker ",
-      "imageSrc": "extr.jpg",
-      "description": "Expense Tracker is a fully responsive single-page application to track income and expenses in real time.Designed clean, intuitive user interface using modern CSS layout techniques.",
-      "skills": ["Html", "CSS","JavaScript","React"],
-      "demo": "https://tejas588.github.io/Expense-Tracker/",
-      "source": "https://github.com/tejas588/Expense-Tracker"
-    },
-    {
-      "title": "Cric-score",
-      "imageSrc": "score.png",
-      "description": "A live cricket score tracker with ball-by-ball updates and automatic run rate calculation.",
-      "skills": ["React", "JavaScript","CSS"],
-      "demo": "https://tejas588.github.io/cricscore/",
-      "source": "https://github.com/tejas588/cricscore"
-    },
-    {
-      "title": "Rock Paper Scissors",
-      "imageSrc": "RPS.png",
-      "description": "Rock Paper Scissors is an interactive web-based game  allowing users to play against a computer opponent with real-time score tracking ",
-      "skills": ["Html", "CSS","JavaScript"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
+  {
+    "title": "Customer Churn Prediction Model",
+    "imageSrc": "churn.png",
+    "description": "Built a supervised machine learning model (Random Forest) to predict customer churn, achieving an F1-score of 0.85. Addressed dataset class imbalance using SMOTE techniques, improving recall on the minority class by 15%. Conducted feature importance analysis to identify key churn drivers.",
+    "skills": [
+      "Python",
+      "Scikit-Learn",
+      "Pandas",
+      "SMOTE"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/tejas588"
+  },
+  {
+    "title": "Real-Estate Price Predictor",
+    "imageSrc": "estate.png",
+    "description": "Engineered a robust dataset of 10,000+ listings by automating web scraping and implementing statistical outlier detection. Developed an XGBoost regression model to estimate housing prices, achieving high precision with a Mean Absolute Error (MAE) within 5% of market value.",
+    "skills": [
+      "Python",
+      "XGBoost",
+      "Streamlit"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/tejas588"
+  },
+  {
+    "title": "Online Voting System",
+    "imageSrc": "ovs.png",
+    "description": "The Online Voting System is a secure, web-based platform designed to simplify and digitize the voting process. It enables users to cast their votes electronically, ensuring accessibility, transparency, and efficiency.",
+    "skills": [
+      "React",
+      "Nodejs",
+      "Express",
+      "Mysql"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/tejas588/online-voting-system"
+  },
+  {
+    "title": "Hostel Electricity Bill Management",
+    "imageSrc": "elec.png",
+    "description": "A digital platform for managing hostel electricity readings, billing, and student-wise consumption tracking. Reduced manual data entry time by 40%.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "Html",
+      "CSS"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/tejas588/KLU-electcity-bill-management"
+  },
+  {
+    "title": "Expense Tracker ",
+    "imageSrc": "extr.jpg",
+    "description": "Expense Tracker is a fully responsive single-page application to track income and expenses in real time.Designed clean, intuitive user interface using modern CSS layout techniques.",
+    "skills": [
+      "Html",
+      "CSS",
+      "JavaScript",
+      "React"
+    ],
+    "demo": "https://tejas588.github.io/Expense-Tracker/",
+    "source": "https://github.com/tejas588/Expense-Tracker"
+  },
+  {
+    "title": "Cric-score",
+    "imageSrc": "score.png",
+    "description": "A live cricket score tracker with ball-by-ball updates and automatic run rate calculation.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "CSS"
+    ],
+    "demo": "https://tejas588.github.io/cricscore/",
+    "source": "https://github.com/tejas588/cricscore"
+  },
+  {
+    "title": "Rock Paper Scissors",
+    "imageSrc": "RPS.png",
+    "description": "Rock Paper Scissors is an interactive web-based game  allowing users to play against a computer opponent with real-time score tracking ",
+    "skills": [
+      "Html",
+      "CSS",
+      "JavaScript"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

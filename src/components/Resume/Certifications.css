@@ -1,8 +1,9 @@
 .cert-container {
-  background-color: #0d162a;
-  color: white;
+  background-color: var(--color-bg);
+  color: var(--color-text);
   min-height: 100vh;
-  padding: 40px 20px;
+  padding: 120px 20px 60px;
+  /* Top padding to clear navbar */
   text-align: center;
 }
 

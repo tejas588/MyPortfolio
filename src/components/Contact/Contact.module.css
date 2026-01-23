@@ -2,63 +2,112 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 120px;
-  background-color: var(--color-secondary);
+  margin-top: 100px;
+  background-color: var(--color-dark);
+  padding: 50px 10%;
+  border-top: 1px solid var(--glass-border);
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background Accents */
+.container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% -20%, rgba(87, 108, 188, 0.15), transparent 70%);
+  z-index: 0;
+}
+
+.text {
+  text-align: center;
+  z-index: 1;
 }
 
 .text h2 {
-  font-size: 55px;
+  font-size: 48px;
   font-weight: 700;
-  letter-spacing: 4px;
+  margin-bottom: 12px;
+  background: linear-gradient(90deg, #fff, var(--color-primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .text p {
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-size: 20px;
+  color: var(--color-text-secondary);
 }
 
 .links {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
   list-style: none;
-  gap: 26px;
+  z-index: 1;
+  flex-wrap: wrap;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 12px;
+  padding: 12px 24px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background: rgba(87, 108, 188, 0.2);
+  transform: translateY(-5px);
+  border-color: var(--color-primary);
+  box-shadow: 0 5px 15px rgba(87, 108, 188, 0.2);
+}
+
+.link img {
+  width: 24px;
+  height: 24px;
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 830px) {
   .container {
-    flex-direction: column;
-    gap: 23px;
+    padding: 40px 5%;
+    gap: 30px;
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .text h2 {
+    font-size: 32px;
+  }
+
+  .text p {
+    font-size: 16px;
   }
 
   .links {
-    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .link {
+    width: 100%;
+    justify-content: center;
+    padding: 14px;
   }
 }

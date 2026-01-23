@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
@@ -11,8 +12,13 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className={styles.navbar}>
-      <a className={styles.title} >
+    <motion.nav
+      className={styles.navbar}
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
+      <a className={styles.title} href="/">
         Portfolio
       </a>
       <div className={styles.menu}>
@@ -43,7 +49,7 @@ export const Navbar = () => {
           </li>
         </ul>
       </div>
-    </nav>
-    
+    </motion.nav>
+
   );
 };

@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 60px 10%;
+  margin: 120px 10% 0 10%;
   padding: 40px 0;
   z-index: 1;
   gap: 40px;
@@ -18,20 +18,19 @@
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text);
-  z-index: 1;
+  z-index: 2;
 }
 
 .title {
   font-size: 64px;
   font-weight: 900;
   margin-bottom: 24px;
-  font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
+  font-family: var(--font-outfit);
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 120%);
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -40,6 +39,7 @@
   font-family: var(--font-roboto);
   margin-bottom: 32px;
   line-height: 1.5;
+  color: var(--color-text-secondary);
   max-width: 600px;
 }
 
@@ -48,36 +48,38 @@
   background-color: var(--color-primary);
   color: var(--color-text);
   border-radius: 50px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
-  padding: 14px 28px;
-  margin-right: 16px;
-  margin-bottom: 16px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: 16px 32px;
+  box-shadow: 0 4px 15px rgba(87, 108, 188, 0.4);
+  transition: all 0.3s ease;
   display: inline-block;
 }
 
 .contactBtn:hover {
-  background-color: #4e5bf2;
+  background-color: var(--color-secondary);
+  box-shadow: 0 0 20px rgba(87, 108, 188, 0.7);
   transform: translateY(-2px);
 }
 
 .heroImg {
-  width: 300px;
+  width: 350px;
   border-radius: 50%;
-  box-shadow: 0 0 30px rgba(108, 99, 255, 0.6);
+  border: 4px solid var(--glass-border);
+  box-shadow: 0 0 50px rgba(87, 108, 188, 0.3);
   animation: floating 3s ease-in-out infinite;
-  z-index: 1;
+  z-index: 2;
 }
 
 @keyframes floating {
   0% {
     transform: translateY(0px);
   }
+
   50% {
-    transform: translateY(10px);
+    transform: translateY(-15px);
   }
+
   100% {
     transform: translateY(0px);
   }
@@ -86,26 +88,25 @@
 .topBlur,
 .bottomBlur {
   position: absolute;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+  background: rgba(87, 108, 188, 0.2);
   filter: blur(100px);
   z-index: 0;
+  opacity: 0.5;
 }
 
 .topBlur {
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  top: -128px;
+  top: -100px;
   left: -10vw;
+  background: radial-gradient(circle, rgba(87, 108, 188, 0.3) 0%, rgba(0, 0, 0, 0) 70%);
 }
 
 .bottomBlur {
-  width: 70vw;
-  height: 50vw;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
+  bottom: -100px;
+  right: -10vw;
+  background: radial-gradient(circle, rgba(25, 55, 109, 0.3) 0%, rgba(0, 0, 0, 0) 70%);
 }
 
 .buttonGroup {
@@ -115,7 +116,7 @@
 }
 
 .typed {
-  color: #60a5fa;
+  color: var(--color-primary);
   font-weight: bold;
 }
 
@@ -123,10 +124,18 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    /* Image on top on mobile? actually column-reverse puts content at bottom usually if row direction. But here it was flex-direction: column-reverse on mobile. Wait. 
+    Desktop: row. Content | Image.
+    Mobile: column-reverse. Image | Content (since it stacks from bottom).
+    Actually let's check what it was. It was column-reverse. So image came last in DOM but first in visual order? No. 
+    DOM: Content, Image.
+    Column-reverse: Image (top), Content (bottom).
+    */
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 30px 20px;
+    margin: 130px 20px 30px 20px;
     padding: 20px 0;
   }
 
@@ -149,7 +158,9 @@
   }
 
   .heroImg {
-    width: 220px;
-    margin-bottom: 24px;
+    width: 250px;
+    margin-bottom: 30px;
+    animation: none;
+    /* simple on mobile or keep it */
   }
 }

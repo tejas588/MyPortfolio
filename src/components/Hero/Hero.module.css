@@ -26,6 +26,9 @@
   font-weight: 900;
   margin-bottom: 24px;
   font-family: var(--font-outfit);
+  min-height: 2.4em;
+  /* Reserves space for 2 lines */
+  line-height: 1.2;
   background: linear-gradient(90deg,
       rgba(255, 255, 255, 1) 70%,
       rgba(255, 255, 255, 0) 120%);

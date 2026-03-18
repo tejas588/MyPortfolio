@@ -25,6 +25,19 @@
     "source": "https://github.com/tejas588"
   },
   {
+    "title": "Nirupama Care",
+    "imageSrc": "nirupama.png",
+    "description": "Architected a comprehensive full-stack healthcare platform facilitating seamless doctor-patient interactions. Integrated an AI-driven symptom checker and an automated chatbot for enhanced patient support. Built secure authentication flows and dedicated portals utilizing a React and FastAPI architecture, while leveraging Supabase Storage for the secure management of digital prescriptions and medical records.",
+    "skills": [
+      "React",
+      "FastAPI",
+      "MongoDB",
+      "Supabase"
+    ],
+    "demo": "https://www.nirupamacare.com",
+    "source": "https://github.com/tejas588/NirupamacareWebsite"
+  },
+  {
     "title": "Online Voting System",
     "imageSrc": "ovs.png",
     "description": "The Online Voting System is a secure, web-based platform designed to simplify and digitize the voting process. It enables users to cast their votes electronically, ensuring accessibility, transparency, and efficiency.",

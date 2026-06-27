@@ -56,6 +56,10 @@
     "imageSrc": "ml.png"
   },
   {
+    "title": "AWS EC2",
+    "imageSrc": "awsec2.png"
+  },
+  {
     "title": "Git/GitHub",
     "imageSrc": "git.png"
   },

@@ -52,6 +52,10 @@
     "imageSrc": "matplotlib.png"
   },
   {
+    "title": "Machine Learning",
+    "imageSrc": "ml.png"
+  },
+  {
     "title": "Git/GitHub",
     "imageSrc": "git.png"
   },

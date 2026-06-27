@@ -77,9 +77,20 @@ function Resume() {
                 <h4>B.Tech in Information Technology</h4>
                 <p className="institution">Manipal Institute of Technology, Bangalore</p>
                 <span className="date">Aug 2023 – May 2027</span>
-                <p className="grade">CGPA: 8.22</p>
+                <p className="grade">CGPA: 8.35</p>
               </div>
             </div>
+
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h4>Intermediate</h4>
+                <p className="institution">Sri Chaitanya Kalashala</p>
+                <span className="date">June 2021 – Apr 2023</span>
+                <p className="grade">Percentage: 93% </p>
+              </div>
+            </div>
+
             <div className="timeline-item">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
@@ -96,7 +107,7 @@ function Resume() {
             <div className="timeline-item">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
-                <h4>Software Development Intern</h4>
+                <h4>Frontend Intern</h4>
                 <p className="institution">Ada Insis, Hyderabad</p>
                 <span className="date">June 2025 – July 2025</span>
                 <ul className="resume-list">
@@ -104,6 +115,37 @@ function Resume() {
                   <li>Built the KL University Hostel Electricity Bill Management Dashboard, reducing manual data entry time by 40%.</li>
                   <li>Implemented API integration and testing protocols, ensuring seamless data flow and stability in a simulated production environment.</li>
                   <li>Utilized Git/GitHub for version control, effectively managing code branches and collaborating on feature deployments.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h4>IoT Intern</h4>
+                <p className="institution">Vallynx Solutions Pvt Ltd,Remote</p>
+                <span className="date">May 2026 – June 2026</span>
+                <ul className="resume-list">
+                  <li>Engineered a secure IoT communication layer using CoAP over DTLS-PSK with Eclipse Californium 3.x and Scandium, enabling encrypted M2M communication — reducing protocol overhead by ~98% compared to HTTP.</li>
+                  <li>Deployed and configured a production-grade CoAP server on AWS EC2 (Amazon Linux) with Elastic IP, Security Group rules, and background process management — providing globally accessible, cloud-hosted IoT endpoints. </li>
+                  <li>Designed and documented a complete IoT communication stack — covering CoAP/DTLS protocol flow, AWS EC2 deployment — producing structured technical reports with user stories, acceptance criteria, and implementation Q&A for production handoff.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h4>Full Stack Developer Intern</h4>
+                <p className="institution">Nirupamacare (Health-Tech Startup),Remote</p>
+                <span className="date">Dec 2025 – Apr 2026</span>
+                <ul className="resume-list">
+                  <li>Building a full-stack healthcare platform using React.js and Vite to digitize medical appointments and
+prescription management for doctors and patients.</li>
+                  <li> Implemented secure OTP Authentication via Supabase, ensuring that sensitive patient medical records are only
+accessible to authorized users.</li>
+                  <li>Integrated MongoDB for data persistence, implementing Base64 encoding to handle the digital storage and
+secure rendering of medical prescriptions within the UI.</li>
                 </ul>
               </div>
             </div>

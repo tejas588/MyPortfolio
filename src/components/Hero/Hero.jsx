@@ -47,7 +47,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <a
-            href="/Sai_Tejas_Repala.pdf"
+            href="/resume.pdf"
             className={styles.contactBtn}
             target="_blank"
             rel="noopener noreferrer"

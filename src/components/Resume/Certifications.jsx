@@ -4,6 +4,15 @@ import { motion } from "framer-motion";
 import "./Certifications.css";
 
 const certificates = [
+  
+  {
+    title: "Ada Insis Internship",
+    file: "/certs/Ada Insis internship.pdf",
+  },
+  {
+    title: "Vallynx Solutions Internship",
+    file: "/certs/Internship letter - Vallynx Solutions.pdf",
+  },
   {
     title: "Python for Everybody (Coursera)",
     file: "/certs/Coursera SUR29X4DFRS5.pdf",
@@ -27,10 +36,6 @@ const certificates = [
   {
     title: "ACM Hackathon Team",
     file: "/certs/Hackathon certificate.jpg",
-  },
-  {
-    title: "Ada Insis Internship",
-    file: "/certs/Ada Insis internship.pdf",
   },
   {
     title: "Infosys SpringBoot-Introduction to Data Science",

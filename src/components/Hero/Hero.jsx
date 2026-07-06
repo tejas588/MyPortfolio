@@ -9,7 +9,7 @@ export const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Sai Tejas", "Full Stack Developer", "ML Enthusiast"],
+      strings: ["Sai Tejas", "Full Stack Developer", "AI ML Enthusiast"],
       typeSpeed: 60,
       backSpeed: 40,
       backDelay: 1000,

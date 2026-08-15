@@ -37,7 +37,7 @@ export const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          Third-year Information Technology undergraduate with a strong foundation in Full Stack Development and Machine Learning.
+          Final-year Information Technology undergraduate with a strong foundation in Gen AI, ML, DL and FullStack.
         </motion.p>
 
         <motion.div

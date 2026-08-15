@@ -77,7 +77,7 @@ function Resume() {
                 <h4>B.Tech in Information Technology</h4>
                 <p className="institution">Manipal Institute of Technology, Bangalore</p>
                 <span className="date">Aug 2023 – May 2027</span>
-                <p className="grade">CGPA: 8.35</p>
+                <p className="grade">CGPA: 8.36</p>
               </div>
             </div>
 

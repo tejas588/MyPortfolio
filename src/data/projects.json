@@ -1,5 +1,33 @@
 [
   {
+    "title": "Multi-PDF RAG Chatbot",
+    "imageSrc": "ragpdf.png",
+    "description": "Developed a multi-PDF RAG chatbot using Python, LangChain, Gemini API, Hugging Face embeddings, and Pinecone for context-aware document-based Q&A. Built a Streamlit interface with conversation history and source citations for accurate and efficient responses.",
+    "skills": [
+      "Python",
+      "LangChain",
+      "Pinecone",
+      "Gemini API",
+      "Hugging Face",
+      "Sentence Transformers"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/tejas588"
+  },
+  {
+    "title": "AI-Powered Facial Recognition Attendance System",
+    "imageSrc": "facerec.png",
+    "description": "Developed an AI-powered attendance system using React, TensorFlow.js, face-api.js, and Supabase for real-time facial recognition and attendance tracking. Implemented liveness detection with EAR/MAR landmark analysis and confidence filtering to prevent spoofing, with offline support through localStorage.",
+    "skills": [
+      "React",
+      "TensorFlow.js",
+      "Supabase",
+      "face-api.js"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/tejas588"
+  },
+  {
     "title": "Customer Churn Prediction Model",
     "imageSrc": "churn.png",
     "description": "Built a supervised machine learning model (Random Forest) to predict customer churn, achieving an F1-score of 0.85. Addressed dataset class imbalance using SMOTE techniques, improving recall on the minority class by 15%. Conducted feature importance analysis to identify key churn drivers.",

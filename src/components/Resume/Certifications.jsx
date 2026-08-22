@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import "./Certifications.css";
 
 const certificates = [
-  
+
   {
     title: "Ada Insis Internship",
     file: "/certs/Ada Insis internship.pdf",
@@ -24,6 +24,14 @@ const certificates = [
   {
     title: "Generative AI: Introduction and Applications (Coursera)",
     file: "/certs/Coursera Q767Q8UT4KU9.pdf",
+  },
+  {
+    title: "Develop Generative AI Applications: Get Started (Coursera)",
+    file: "/certs/Coursera 572WHV8BUKYJ.pdf",
+  },
+  {
+    title: "Build RAG Applications: Get Started (Coursera)",
+    file: "/certs/Coursera BYE5962NB6YH.pdf",
   },
   {
     title: "Microcontroller and Industrial Applications (Coursera)",

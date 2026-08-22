@@ -56,6 +56,30 @@
     "imageSrc": "ml.png"
   },
   {
+    "title": "Deep Learning",
+    "imageSrc": "DL.png"
+  },
+  {
+    "title": "TensorFlow",
+    "imageSrc": "TF.png"
+  },
+  {
+    "title": "LLMs",
+    "imageSrc": "llms.png"
+  },
+  {
+    "title": "Gen AI",
+    "imageSrc": "genai.png"
+  },
+  {
+    "title": "Lang Chain",
+    "imageSrc": "langchain.png"
+  },
+  {
+    "title": "RAG",
+    "imageSrc": "rag.png"
+  },
+  {
     "title": "AWS EC2",
     "imageSrc": "awsec2.png"
   },

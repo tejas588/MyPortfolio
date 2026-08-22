@@ -12,7 +12,7 @@
       "Sentence Transformers"
     ],
     "demo": "https://www.example.com",
-    "source": "https://github.com/tejas588"
+    "source": "https://github.com/tejas588/multi-pdf-rag-chatbot"
   },
   {
     "title": "AI-Powered Facial Recognition Attendance System",
@@ -25,7 +25,7 @@
       "face-api.js"
     ],
     "demo": "https://www.example.com",
-    "source": "https://github.com/tejas588"
+    "source": "https://github.com/tejas588/Facial-attendance-system"
   },
   {
     "title": "Customer Churn Prediction Model",
@@ -38,7 +38,7 @@
       "SMOTE"
     ],
     "demo": "https://www.example.com",
-    "source": "https://github.com/tejas588"
+    "source": "https://github.com/tejas588/customer-churn-prediction"
   },
   {
     "title": "Real-Estate Price Predictor",

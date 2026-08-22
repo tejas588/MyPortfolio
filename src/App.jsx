@@ -10,11 +10,13 @@ import Resume from "./components/Resume/Resume"; // PDF preview component
 import Certifications from "./components/Resume/Certifications";
 import CursorFollower from "./components/CursorFollower/CursorFollower";
 import ScrollToTop from "./components/ScrollToTop";
+import { Background3D } from "./components/3D/Background3D";
 
 function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
+      <Background3D />
       <div className={styles.App}>
         <CursorFollower />
         <Navbar />
